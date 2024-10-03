@@ -2,9 +2,6 @@ body {
     background: rgb(5, 5, 30); /* Dark blue for space-like effect */
     display: flex;
     justify-content: center;
-    align-items: center; /* Vertically centers content */
-    height: 100vh;
-    margin: 0;
 }
 
 #alice-container {
