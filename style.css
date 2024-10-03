@@ -1,0 +1,30 @@
+body {
+    background: rgb(5, 5, 30); /* Dark blue for space-like effect */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Vertically centers content */
+    height: 100vh;
+    margin: 0;
+}
+
+#alice-container {
+    width: 100vh;
+    display: grid;
+    place-items: center;
+    grid-template-areas:
+      "a1 . ."
+      ". a2 ."
+      ". . a3";
+}
+
+#fl1 {
+    grid-area: a1;
+}
+
+#fl2 {
+    grid-area: a2;
+}
+
+#fl3 {
+    grid-area: a3;
+}
